@@ -21,12 +21,14 @@ export STARSHIP_CACHE=$XDG_CACHE_HOME/starship
 export STARSHIP_CONFIG=$XDG_CONFIG_HOME/starship.toml
 export TERMINFO=$XDG_DATA_HOME/terminfo
 export TERMINFO_DIRS=$XDG_DATA_HOME/terminfo:/usr/share/terminfo
+export VOLTA_HOME="$XDG_DATA_HOME/volta"
 export WGETRC=$XDG_CONFIG_HOME/wget/wgetrc
 export WINEPREFIX=$XDG_DATA_HOME/wine
 export ZPLUG_HOME=$XDG_DATA_HOME/zplug
 export ZSH_COMPDUMP="$XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION"
 
 # path
-export PATH=$HOME/.local/bin:$XDG_DATA_HOME/JetBrains/Toolbox/scripts:$PATH
-export VOLTA_HOME="$HOME/.local/share/volta"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$XDG_DATA_HOME/JetBrains/Toolbox/scripts:$PATH"
 export PATH="$VOLTA_HOME/bin:$PATH"
+export PATH="$CARGO_HOME/bin:$PATH"

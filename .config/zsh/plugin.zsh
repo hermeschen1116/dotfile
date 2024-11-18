@@ -20,7 +20,7 @@ zplug "plugins/uv", from:oh-my-zsh
 zplug "plugins/ssh-agent", from:oh-my-zsh
 zplug "plugins/volta", from:oh-my-zsh
 zplug "plugins/zoxide", from:oh-my-zsh
-zplug "Tarrasch/zsh-autoenv", from:github
+zplug "vincentto13/uvenv.plugin.zsh", from:github
 
 if ! zplug check; then
   zplug install

@@ -1,1 +1,3 @@
-eval "$(zellij setup --generate-auto-start zsh)"
+if [ $TERM != linux ]; then
+    eval "$(zellij setup --generate-auto-start zsh)"
+fi
