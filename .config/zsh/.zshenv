@@ -13,7 +13,7 @@ export FZF_BASE=$(which fzf)
 export FZF_DEFAULT_OPTS="--multi --color bg:#1e1e2e,bg+:#313244,fg:#cdd6f4,fg+:#cdd6f4,header:#f38ba8,hl:#f38ba8,hl+:#f38ba8,info:#cba6f7,marker:#b4befe,pointer:#f5e0dc,prompt:#cba6f7,selected-bg:#45475a,spinner:#f5e0dc"
 export GNUPGHOME=$XDG_DATA_HOME/gnupg
 export IPYTHONDIR=$XDG_CONFIG_HOME/ipython
-export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME/java"
+export _JAVA_OPTIONS="-Djava.util.prefs.userRoot='$XDG_CONFIG_HOME/java' -XX:+UseZGC -XX:+ZGenerational -Dawt.toolkit.name=WLToolkit -XX:+TieredCompilation -XX:+HeapDumpOnOutOfMemoryError -Dsun.java2d.opengl=true -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true"
 export JUPYTER_CONFIG_DIR=$XDG_CONFIG_HOME/jupyter
 export LESSHISTFILE=$XDG_STATE_HOME/less/history
 export LS_COLORS=$(vivid generate catppuccin-mocha)
