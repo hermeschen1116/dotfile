@@ -1,3 +1,13 @@
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_CONFIG_DIRS="/etc/xdg"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_DIRS="/usr/local/share:/usr/share:/var/lib/flatpak/exports/share:$XDG_DATA_HOME/flatpak/exports/share"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_RUNTIME_DIR="/run/user/$UID"
+export XDG_STATE_HOME="$HOME/.local/state"
+
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+
 # PATH
 export PATH="$VOLTA_HOME/bin:$HOME/.local/bin:$XDG_DATA_HOME/JetBrains/Toolbox/scripts:$CARGO_HOME/bin:$PATH"
 
@@ -19,6 +29,11 @@ export LESSHISTFILE=$XDG_STATE_HOME/less/history
 export LS_COLORS=$(vivid generate catppuccin-mocha)
 export MPLCONFIGDIR=$XDG_CONFIG_HOME/matplotlib
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
+export NPM_CONFIG_INIT_MODULE="$XDG_CONFIG_HOME/npm/config/npm-init.js"
+export NPM_CONFIG_CACHE="$XDG_CACHE_HOME/npm"
+export NPM_CONFIG_TMP="$XDG_RUNTIME_DIR/npm"
+export PYTHON_HISTORY="$XDG_STATE_HOME/python_history"
+export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
 export RUSTUP_HOME=$XDG_DATA_HOME/rustup
 export STARSHIP_CACHE=$XDG_CACHE_HOME/starship
 export STARSHIP_CONFIG=$XDG_CONFIG_HOME/starship.toml

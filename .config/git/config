@@ -63,3 +63,5 @@
 
 [include]
     path = "~/.config/delta/themes.gitconfig"
+[credential]
+	helper = store
