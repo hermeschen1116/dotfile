@@ -1,12 +1,12 @@
-export XDG_CACHE_HOME="$HOME/.cache"
-export XDG_CONFIG_DIRS="/etc/xdg"
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_DATA_DIRS="/usr/local/share:/usr/share:/var/lib/flatpak/exports/share:$XDG_DATA_HOME/flatpak/exports/share"
-export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_RUNTIME_DIR="/run/user/$UID"
-export XDG_STATE_HOME="$HOME/.local/state"
+# export XDG_CACHE_HOME="$HOME/.cache"
+# export XDG_CONFIG_DIRS="/etc/xdg"
+# export XDG_CONFIG_HOME="$HOME/.config"
+# export XDG_DATA_DIRS="/usr/local/share:/usr/share:/var/lib/flatpak/exports/share:$XDG_DATA_HOME/flatpak/exports/share"
+# export XDG_DATA_HOME="$HOME/.local/share"
+# export XDG_RUNTIME_DIR="/run/user/$UID"
+# export XDG_STATE_HOME="$HOME/.local/state"
 
-export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+# export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
 # PATH
 export PATH="$VOLTA_HOME/bin:$HOME/.local/bin:$XDG_DATA_HOME/JetBrains/Toolbox/scripts:$CARGO_HOME/bin:$PATH"
