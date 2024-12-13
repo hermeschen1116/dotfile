@@ -32,9 +32,9 @@
 
 [filter "lfs"]
         clean = "git-lfs clean -- %f"
-        process = "git-lfs filter-process --skip"
+	process = git-lfs filter-process
         required = true
-        smudge = "git-lfs smudge --skip -- %f"
+	smudge = git-lfs smudge -- %f
 
 [gpg]
         program = "gpg"
