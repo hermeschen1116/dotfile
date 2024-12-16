@@ -16,11 +16,11 @@ zplug "plugins/git-auto-fetch", from:oh-my-zsh
 zplug "plugins/gpg-agent", from:oh-my-zsh
 zplug "plugins/rust", from:oh-my-zsh
 zplug "plugins/ufw", from:oh-my-zsh
-zplug "plugins/uv", from:oh-my-zsh
 zplug "plugins/ssh-agent", from:oh-my-zsh
 zplug "plugins/volta", from:oh-my-zsh
 zplug "plugins/zoxide", from:oh-my-zsh
-zplug "vincentto13/uvenv.plugin.zsh", from:github
+zplug "plugins/dotenv", from:oh-my-zsh
+zplug "plugins/virtualenvwrapper", from:oh-my-zsh
 
 if ! zplug check; then
   zplug install
