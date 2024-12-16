@@ -7,6 +7,7 @@ zplug "zsh-users/zsh-completions", from:github
 zplug "hlissner/zsh-autopair", from:github, defer:2
 zplug "zdharma-continuum/fast-syntax-highlighting", from:github
 zplug "changyuheng/zsh-interactive-cd", from:github
+zplug "zsh-users/zsh-history-substring-search", from:github
 zplug "plugins/brew", from:oh-my-zsh
 zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "plugins/command-not-found", from:oh-my-zsh
