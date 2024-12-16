@@ -79,6 +79,8 @@ brew "sevenzip", args: ["HEAD"]
 brew "speedtest-cli"
 # Cross-shell prompt for astronauts
 brew "starship", args: ["HEAD"]
+# Very fast implementation of tldr in Rust
+brew "tealdeer", args: ["HEAD"]
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv", args: ["HEAD"]
 # Generator for LS_COLORS with support for multiple color themes
@@ -133,6 +135,7 @@ mas "Microsoft PowerPoint", id: 462062816
 mas "Numbers", id: 409203825
 mas "Orbot", id: 1609461599
 mas "Pages", id: 409201541
+mas "Raycast Companion", id: 6738274497
 mas "Save to Pocket", id: 1477385213
 mas "Save to Raindrop.io", id: 1549370672
 mas "Surfshark", id: 1437809329
