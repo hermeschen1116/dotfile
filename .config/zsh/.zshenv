@@ -16,6 +16,12 @@ export LC_ALL="en_US.UTF-8"
 export LC_CTYPE="UTF-8"
 export GPG_TTY="$TTY"
 
+if [ "$(arch)" = "arm64" ]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+else
+    eval "$(/usr/local/bin/brew shellenv)"
+fi
+
 export CARGO_HOME="$XDG_CONFIG_HOME/cargo"
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
@@ -43,5 +49,5 @@ export TERMINFO_DIRS="$XDG_DATA_HOME/terminfo:/usr/share/terminfo"
 export VOLTA_HOME="$XDG_DATA_HOME/volta"
 export WGETRC="$XDG_CONFIG_HOME/wget/wgetrc"
 export WINEPREFIX="$XDG_DATA_HOME/wine"
-export ZPLUG_HOME="$XDG_DATA_HOME/zplug"
+export ZPLUG_HOME="$HOMEBREW_PREFIX/opt/zplug"
 export ZSH_COMPDUMP="$XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION"

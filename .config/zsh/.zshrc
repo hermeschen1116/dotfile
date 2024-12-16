@@ -6,4 +6,4 @@ source "$ZDOTDIR/option.zsh"
 source "$ZDOTDIR/alias.zsh"
 source "$ZDOTDIR/integration.zsh"
 
-. "$HOME/.local/share/../bin/env"
+#. "$HOME/.local/share/../bin/env"

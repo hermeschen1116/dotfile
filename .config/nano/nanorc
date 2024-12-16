@@ -4,4 +4,4 @@ set autoindent
 set trimblanks
 set linenumbers
 set constantshow
-include /usr/share/nano-syntax-highlighting/*.nanorc
+include /opt/homebrew/share/nanorc/*.nanorc
