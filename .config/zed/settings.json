@@ -7,7 +7,29 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-	"theme": {
+	"ssh_connections": [
+    {
+      "host": "server",
+      "projects": [
+        {
+          "paths": [
+            "~/Repo/taiwan-license-plate-recognition"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "ezcon-u7",
+      "projects": [
+        {
+          "paths": [
+            "~/Repo/taiwan-license-plate-recognition"
+          ]
+        }
+      ]
+    }
+  ],
+ "theme": {
 		"mode": "system",
 		"dark": "Catppuccin Mocha",
 		"light": "Catppuccin Latte"
