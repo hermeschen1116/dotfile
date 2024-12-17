@@ -9,7 +9,7 @@
 # export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
 # PATH
-export PATH="$VOLTA_HOME/bin:$HOME/.local/bin:$XDG_DATA_HOME/JetBrains/Toolbox/scripts:$CARGO_HOME/bin:$PATH"
+export PATH="$VOLTA_HOME/bin:$HOME/.local/bin:$XDG_DATA_HOME/JetBrains/Toolbox/scripts:$CARGO_HOME/bin:$HOME/.modular/bin:$PATH"
 
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
@@ -23,7 +23,6 @@ else
 fi
 
 export CARGO_HOME="$XDG_CONFIG_HOME/cargo"
-export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
 export FZF_BASE="$(which fzf)"
 export FZF_DEFAULT_OPTS="--multi --color bg:#1e1e2e,bg+:#313244,fg:#cdd6f4,fg+:#cdd6f4,header:#f38ba8,hl:#f38ba8,hl+:#f38ba8,info:#cba6f7,marker:#b4befe,pointer:#f5e0dc,prompt:#cba6f7,selected-bg:#45475a,spinner:#f5e0dc"
@@ -51,4 +50,4 @@ export WGETRC="$XDG_CONFIG_HOME/wget/wgetrc"
 export WINEPREFIX="$XDG_DATA_HOME/wine"
 export ZPLUG_HOME="$HOMEBREW_PREFIX/opt/zplug"
 export ZSH_COMPDUMP="$XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION"
-export ZSH_DOTENV_PROMPT="Always"
+export ZSH_DOTENV_PROMPT=false

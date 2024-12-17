@@ -1,63 +1,72 @@
 [alias]
-        ignore = "!gi() { curl -sL https://www.toptal.com/developers/gitignore/api/$@ ;}; gi"
+    ignore = "!gi() { curl -sL https://www.toptal.com/developers/gitignore/api/$@ ;}; gi"
 
 [color]
-        ui = true
+    ui = true
 
 [commit]
-        gpgSign = true
+    gpgSign = true
 
 [core]
-        autocrlf = "input"
-        editor = "nano"
-        excludesfile = "~/.config/git/ignore"
-        pager = "delta"
+    autocrlf = "input"
+    editor = "nano"
+    excludesfile = "~/.config/git/ignore"
+    pager = "delta"
+	compression = 5
+	looseCompression = 1
 
 [credential "https://gist.github.com"]
-        helper = "gh auth git-credential"
+    helper = "gh auth git-credential"
 
 [credential "https://github.com"]
-        helper = "gh auth git-credential"
+    helper = "gh auth git-credential"
 
 [delta]
-        features = "catppuccin-mocha"
-        hyperlinks = true
-        hyperlinks-file-link-format = "file-line://{path}:{line}"
-        line-numbers = true
-        navigate = true
-        side-by-side = true
+    features = "catppuccin-mocha"
+    hyperlinks = true
+    hyperlinks-file-link-format = "file-line://{path}:{line}"
+    line-numbers = true
+    navigate = true
+    side-by-side = true
 
 [diff]
-        colorMoved = "default"
+    colorMoved = "default"
 
 [filter "lfs"]
-        clean = "git-lfs clean -- %f"
-        process = git-lfs filter-process
-        required = true
-	    smudge = git-lfs smudge -- %f
+    clean = "git-lfs clean -- %f"
+    process = "git-lfs filter-process"
+    required = true
+	smudge = "git-lfs smudge -- %f"
 
 [gpg]
-        program = "gpg"
+    program = "gpg"
 
 [init]
-        defaultBranch = "main"
-
-[interactive]
-        diffFilter = "delta --color-only"
-
-[merge]
-        conflictstyle = "diff3"
-
-[push]
-        autoSetupRemote = true
-
-[tag]
-        gpgSign = true
-
-[user]
-        email = "108386417+hermeschen1116@users.noreply.github.com"
-        name = "hermeschen1116"
-	    signingkey = "D225610C41026C29"
+    defaultBranch = "main"
 
 [include]
-        path = "~/.config/delta/themes.gitconfig"
+    path = "~/.config/delta/themes.gitconfig"
+
+[includeIf "gitdir:~/Repo/personal"]
+    path = "~/.config/git/personal.gitconfig"
+
+[includeIf "gitdir:~/Repo/work"]
+    path = "~/.config/git/work.gitconfig"
+
+[includeIf "gitdir:~/Repo/alter"]
+    path = "~/.config/git/alter.gitconfig"
+
+[interactive]
+    diffFilter = "delta --color-only"
+
+[merge]
+    conflictstyle = "diff3"
+
+[pack]
+    compression = 0
+
+[push]
+    autoSetupRemote = true
+
+[tag]
+    gpgSign = true

@@ -4,7 +4,7 @@ brew "aria2"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat", args: ["HEAD"]
 # New way to see and navigate directory trees
-brew "broot", args: ["HEAD"]
+brew "broot"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop", args: ["HEAD"]
 # Interpreted, interactive, object-oriented programming language
@@ -13,6 +13,10 @@ brew "python@3.13"
 brew "ccache", args: ["HEAD"]
 # Cloudflare Tunnel client (formerly Argo Tunnel)
 brew "cloudflared", args: ["HEAD"]
+# Wrapper around make to colorize the output
+brew "colormake", args: ["HEAD"]
+# Defines a standard way of committing rules and communicating it
+brew "commitizen", args: ["HEAD"]
 # Secure runtime for JavaScript and TypeScript
 brew "deno"
 # Pack, ship and run any application as a lightweight container
@@ -65,18 +69,26 @@ brew "onefetch", args: ["HEAD"]
 brew "pinentry-mac"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit", args: ["HEAD"]
+# Interpreted, interactive, object-oriented programming language
+brew "python-freethreading"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# Python interface to Tcl/Tk
+brew "python-tk@3.12"
 # Python interface to Tcl/Tk
 brew "python-tk@3.13"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep", args: ["HEAD"]
+# Extremely fast tool to remove dupes and other lint from your filesystem
+brew "rmlint"
 # Extremely fast Python linter, written in Rust
 brew "ruff", args: ["HEAD"]
 # Rust toolchain installer
 brew "rustup", args: ["HEAD"]
+# Experimental Package Management Solution for Python
+brew "rye"
 # 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip", args: ["HEAD"]
-# Command-line interface for https://speedtest.net bandwidth tests
-brew "speedtest-cli"
 # Cross-shell prompt for astronauts
 brew "starship", args: ["HEAD"]
 # Very fast implementation of tldr in Rust
@@ -99,6 +111,8 @@ brew "zoxide"
 brew "zplug", args: ["HEAD"]
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Automatic tiling window manager similar to xmonad
+cask "amethyst"
 # Android SDK component
 cask "android-platform-tools"
 # Local-first and end-to-end encrypted notes app
@@ -107,16 +121,19 @@ cask "anytype@beta"
 cask "arc"
 # Software for drawing and painting
 cask "clip-studio-paint"
+cask "font-jf-open-huninn"
 cask "font-meslo-lg-nerd-font"
 cask "font-noto-color-emoji"
+cask "font-noto-sans-mono-cjk-jp"
+cask "font-noto-sans-mono-cjk-tc"
 # Remote development gateway by Jetbrains
 cask "jetbrains-gateway"
 # Find shortcuts for any installed application
 cask "keyclu"
-# Privacy-first, open-source platform for knowledge sharing and management
-cask "logseq"
 # App to write, plan, collaborate, and get organised
 cask "notion"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Resources for Wacom tablets
@@ -125,8 +142,6 @@ cask "wacom-tablet"
 cask "xld"
 # Multiplayer code editor
 cask "zed@preview"
-# Video communication and virtual meeting platform
-cask "zoom"
 mas "AdGuard for Safari", id: 1440147259
 mas "Keynote", id: 409183694
 mas "Lightweight PDF", id: 1450640351
