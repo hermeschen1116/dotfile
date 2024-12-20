@@ -58,6 +58,9 @@
 	},
 	"terminal": {
 		"copy_on_select": true,
+		"env": {
+		    "DISABLE_ZELLIJ": "1",
+		},
 		"font_family": "MesloLGS Nerd Font Mono",
 		"font_size": 16,
 		"option_as_meta": true,
