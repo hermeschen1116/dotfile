@@ -8,28 +8,24 @@
 // from the command palette or from `Zed` application menu.
 {
 	"ssh_connections": [
-    {
-      "host": "server",
-      "projects": [
-        {
-          "paths": [
-            "~/Repo/taiwan-license-plate-recognition"
-          ]
-        }
-      ]
-    },
-    {
-      "host": "ezcon-u7",
-      "projects": [
-        {
-          "paths": [
-            "~/Repo/taiwan-license-plate-recognition"
-          ]
-        }
-      ]
-    }
-  ],
- "theme": {
+		{
+			"host": "server",
+			"projects": [
+				{
+					"paths": ["~/Repo/taiwan-license-plate-recognition"]
+				}
+			]
+		},
+		{
+			"host": "ezcon-u7",
+			"projects": [
+				{
+					"paths": ["~/Repo/taiwan-license-plate-recognition"]
+				}
+			]
+		}
+	],
+	"theme": {
 		"mode": "system",
 		"dark": "Catppuccin Mocha",
 		"light": "Catppuccin Latte"
@@ -39,9 +35,9 @@
 		"inline_completion_provider": "none",
 		"copilot": false
 	},
-	"buffer_font_family": "MesloLGS Nerd Font Mono",
+	"buffer_font_family": "Lilex Nerd Font Mono",
 	"buffer_font_size": 16,
-	"ui_font_family": "MesloLGS Nerd Font Mono",
+	"ui_font_family": "Lilex Nerd Font Propo",
 	"ui_font_size": 16,
 	"confirm_quit": true,
 	"auto_signature_help": true,
@@ -80,7 +76,10 @@
 	},
 	"terminal": {
 		"copy_on_select": true,
-		"font_family": "MesloLGS Nerd Font Mono",
+		"env": {
+			"DISABLE_ZELLIJ": "1"
+		},
+		"font_family": "Lilex Nerd Font Mono",
 		"font_size": 16,
 		"option_as_meta": true,
 		"button": true,

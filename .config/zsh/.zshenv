@@ -9,7 +9,7 @@
 # export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
 # PATH
-export PATH="$VOLTA_HOME/bin:$HOME/.local/bin:$XDG_DATA_HOME/JetBrains/Toolbox/scripts:$CARGO_HOME/bin:$HOME/.modular/bin:$PATH"
+export PATH="$VOLTA_HOME/bin:$HOME/.local/bin:$XDG_DATA_HOME/JetBrains/Toolbox/scripts:$CARGO_HOME/bin:$HOME/.modular/bin:/opt/homebrew/opt/openjdk/bin:$PATH"
 
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
@@ -51,3 +51,4 @@ export WINEPREFIX="$XDG_DATA_HOME/wine"
 export ZPLUG_HOME="$HOMEBREW_PREFIX/opt/zplug"
 export ZSH_COMPDUMP="$XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION"
 export ZSH_DOTENV_PROMPT=false
+export ENABLE_ZELLIJ="on"

@@ -4,7 +4,7 @@ TERM = "xterm-256color"
 [font]
 size = 16
 [font.normal]
-family = "MesloLGS Nerd Font Mono"
+family = "Lilex Nerd Font Mono"
 style = "Regular"
 
 [selection]

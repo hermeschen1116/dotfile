@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+tap "homebrew/services"
 # Download with resuming and segmented downloading
 brew "aria2"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -12,7 +13,7 @@ brew "python@3.13"
 # Object-file caching compiler wrapper
 brew "ccache", args: ["HEAD"]
 # Cloudflare Tunnel client (formerly Argo Tunnel)
-brew "cloudflared", args: ["HEAD"]
+brew "cloudflared", args: ["HEAD"], restart_service: true
 # Wrapper around make to colorize the output
 brew "colormake", args: ["HEAD"]
 # Defines a standard way of committing rules and communicating it
@@ -39,6 +40,8 @@ brew "gh", args: ["HEAD"]
 brew "git", args: ["HEAD"]
 # Syntax-highlighting pager for git and diff output
 brew "git-delta", args: ["HEAD"]
+# Quickly rewrite git repository history
+brew "git-filter-repo"
 # Git extension for versioning large files
 brew "git-lfs"
 # GNU Pretty Good Privacy (PGP) package
@@ -115,6 +118,8 @@ cask "alacritty"
 cask "amethyst"
 # Android SDK component
 cask "android-platform-tools"
+# Allows connection to a computer remotely
+cask "anydesk"
 # Local-first and end-to-end encrypted notes app
 cask "anytype@beta"
 # Chromium based browser
@@ -122,10 +127,15 @@ cask "arc"
 # Software for drawing and painting
 cask "clip-studio-paint"
 cask "font-jf-open-huninn"
+cask "font-lilex-nerd-font"
 cask "font-meslo-lg-nerd-font"
 cask "font-noto-color-emoji"
 cask "font-noto-sans-mono-cjk-jp"
 cask "font-noto-sans-mono-cjk-tc"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Early access development kit for the Java programming language
+cask "java@beta"
 # Remote development gateway by Jetbrains
 cask "jetbrains-gateway"
 # Find shortcuts for any installed application
@@ -134,6 +144,8 @@ cask "keyclu"
 cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Minecraft launcher
+cask "prismlauncher"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Resources for Wacom tablets

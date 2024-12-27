@@ -1,7 +1,7 @@
 # autosuggestion
 ZSH_AUTOSUGGEST_STRATEGY=(history)
 
-#history
+# history
 HISTSIZE="10000"
 SAVEHIST="10000"
 HISTORY_IGNORE='(ls|bat|cat|eza|SECRET)'
@@ -16,3 +16,6 @@ setopt HIST_IGNORE_SPACE
 setopt HIST_EXPIRE_DUPS_FIRST
 setopt SHARE_HISTORY
 setopt EXTENDED_HISTORY
+
+# auto correction
+setopt correct
