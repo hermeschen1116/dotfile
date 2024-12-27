@@ -112,8 +112,6 @@ brew "zellij", args: ["HEAD"]
 brew "zoxide"
 # Next-generation plugin manager for zsh
 brew "zplug", args: ["HEAD"]
-# GPU-accelerated terminal emulator
-cask "alacritty"
 # Automatic tiling window manager similar to xmonad
 cask "amethyst"
 # Android SDK component
