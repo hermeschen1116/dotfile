@@ -7,13 +7,15 @@ config() {
 compdef _git config
 
 brew_autodump() {
-  if [[ "$1" == "install" || "$1" == "uninstall" ]]; then
+  if [[ "$1" == "install" || "$1" == "uninstall" || "$1" == "tap" || "$1" == "untap" ]]; then
     command brew "$@"
-    if [[ $? -eq 0 ]]; then
+    if [[ $(arch) == "arm64" ]]; then
+      if [[ $? -eq 0 ]]; then
     	brew bundle dump --global --describe --all --force --cleanup --zap
-      echo "✅ 已更新 .Brewfile 至最新狀態！"
-    else
-      echo "❌ Brew 指令執行失敗，未更新 .Brewfile。"
+        echo "✅ 已更新 .Brewfile 至最新狀態！"
+      else
+        echo "❌ Brew 指令執行失敗，未更新 .Brewfile。"
+      fi
     fi
   else
     command brew "$@"

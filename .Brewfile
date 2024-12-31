@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
+tap "italomandara/cxpatcher"
 # Download with resuming and segmented downloading
 brew "aria2"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -132,6 +133,8 @@ cask "font-noto-sans-mono-cjk-jp"
 cask "font-noto-sans-mono-cjk-tc"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Open Source Multimedia Framework
+cask "gstreamer-runtime"
 # Early access development kit for the Java programming language
 cask "java@beta"
 # Remote development gateway by Jetbrains
@@ -152,6 +155,8 @@ cask "wacom-tablet"
 cask "xld"
 # Multiplayer code editor
 cask "zed@preview"
+# Gecko based web browser
+cask "zen-browser@twilight"
 mas "AdGuard for Safari", id: 1440147259
 mas "Keynote", id: 409183694
 mas "Lightweight PDF", id: 1450640351

@@ -102,7 +102,8 @@
 			]
 		},
 		"YAML": {
-			"hard_tabs": false
+			"hard_tabs": false,
+			"tab_size": 4
 		}
 	},
 	"lsp": {
