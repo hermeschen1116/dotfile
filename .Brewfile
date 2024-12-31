@@ -13,6 +13,8 @@ brew "btop", args: ["HEAD"]
 brew "python@3.13"
 # Object-file caching compiler wrapper
 brew "ccache", args: ["HEAD"]
+# Manage your dotfiles across multiple diverse machines, securely
+brew "chezmoi", args: ["HEAD"]
 # Cloudflare Tunnel client (formerly Argo Tunnel)
 brew "cloudflared", args: ["HEAD"], restart_service: true
 # Wrapper around make to colorize the output
@@ -156,7 +158,7 @@ cask "xld"
 # Multiplayer code editor
 cask "zed@preview"
 # Gecko based web browser
-cask "zen-browser@twilight"
+cask "zen-browser"
 mas "AdGuard for Safari", id: 1440147259
 mas "Keynote", id: 409183694
 mas "Lightweight PDF", id: 1450640351
