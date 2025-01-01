@@ -7,6 +7,7 @@ theme = dark:catppuccin-mocha,light:catppuccin-latte
 cursor-style-blink = true
 cursor-click-to-move = true
 mouse-hide-while-typing = true
+mouse-scroll-multiplier = 1.5
 background-opacity = 0.6
 background-blur-radius = 20
 unfocused-split-opacity = 0.3
