@@ -14,7 +14,7 @@ brew "python@3.13"
 # Object-file caching compiler wrapper
 brew "ccache", args: ["HEAD"]
 # Manage your dotfiles across multiple diverse machines, securely
-brew "chezmoi", args: ["HEAD"]
+brew "chezmoi"
 # Cloudflare Tunnel client (formerly Argo Tunnel)
 brew "cloudflared", args: ["HEAD"], restart_service: true
 # Wrapper around make to colorize the output
@@ -119,12 +119,8 @@ brew "zplug", args: ["HEAD"]
 cask "amethyst"
 # Android SDK component
 cask "android-platform-tools"
-# Allows connection to a computer remotely
-cask "anydesk"
 # Local-first and end-to-end encrypted notes app
 cask "anytype@beta"
-# Chromium based browser
-cask "arc"
 # Software for drawing and painting
 cask "clip-studio-paint"
 cask "font-jf-open-huninn"
@@ -173,3 +169,4 @@ mas "Save to Raindrop.io", id: 1549370672
 mas "Surfshark", id: 1437809329
 mas "TestFlight", id: 899247664
 mas "Todoist", id: 585829637
+mas "Windows App", id: 1295203466
