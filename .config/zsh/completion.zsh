@@ -24,6 +24,8 @@ brew_autodump() {
 
 compdef _brew brew_autodump
 
+# broot
 source "$XDG_CONFIG_HOME/broot/launcher/bash/br"
 
-eval "$(magic completion --shell zsh)"
+# uv
+eval "$(uvx --generate-shell-completion zsh)"

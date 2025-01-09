@@ -35,6 +35,8 @@ brew "eza"
 brew "fastfetch", args: ["HEAD"]
 # Simple, fast and user-friendly alternative to find
 brew "fd", args: ["HEAD"]
+# Command-line outline and bitmap font editor/converter
+brew "fontforge"
 # Command-line fuzzy finder written in Go
 brew "fzf", args: ["HEAD"]
 # GitHub command-line tool
@@ -57,6 +59,8 @@ brew "lazydocker"
 brew "lazygit", args: ["HEAD"]
 # Linux virtual machines
 brew "lima", args: ["HEAD"]
+# Package manager for the Lua programming language
+brew "luarocks"
 # Mac App Store command-line interface
 brew "mas", args: ["HEAD"]
 # Free (GNU) replacement for the Pico text editor
@@ -119,18 +123,17 @@ brew "zplug", args: ["HEAD"]
 cask "amethyst"
 # Android SDK component
 cask "android-platform-tools"
-# Local-first and end-to-end encrypted notes app
-cask "anytype@beta"
 # Software for drawing and painting
 cask "clip-studio-paint"
+# Voice and text chat software
+cask "discord@canary"
 cask "font-jf-open-huninn"
 cask "font-lilex-nerd-font"
 cask "font-meslo-lg-nerd-font"
-cask "font-noto-color-emoji"
 cask "font-noto-sans-mono-cjk-jp"
 cask "font-noto-sans-mono-cjk-tc"
 # Terminal emulator that uses platform-native UI and GPU acceleration
-cask "ghostty"
+cask "ghostty@tip"
 # Open Source Multimedia Framework
 cask "gstreamer-runtime"
 # Early access development kit for the Java programming language
@@ -159,7 +162,6 @@ mas "AdGuard for Safari", id: 1440147259
 mas "Keynote", id: 409183694
 mas "Lightweight PDF", id: 1450640351
 mas "LINE", id: 539883307
-mas "Microsoft PowerPoint", id: 462062816
 mas "Numbers", id: 409203825
 mas "Orbot", id: 1609461599
 mas "Pages", id: 409201541
@@ -168,5 +170,4 @@ mas "Save to Pocket", id: 1477385213
 mas "Save to Raindrop.io", id: 1549370672
 mas "Surfshark", id: 1437809329
 mas "TestFlight", id: 899247664
-mas "Todoist", id: 585829637
 mas "Windows App", id: 1295203466
