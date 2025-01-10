@@ -1,0 +1,4 @@
+[".config/alacritty/catppuccin-mocha.toml"]
+    type = "file"
+    url = "https://github.com/catppuccin/alacritty/blob/main/catppuccin-mocha.toml"
+    refreshPeriod = "168h"
