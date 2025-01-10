@@ -16,5 +16,5 @@
 
 [".config/delta/catppuccin.gitconfig"]
     type = "file"
-    url = "https://github.com/catppuccin/delta/blob/main/catppuccin.gitconfig"
+    url = "https://raw.githubusercontent.com/catppuccin/delta/refs/heads/main/catppuccin.gitconfig"
     refreshPeriod = "168h"
