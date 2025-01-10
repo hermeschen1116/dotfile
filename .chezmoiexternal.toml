@@ -44,3 +44,8 @@ refreshPeriod = "168h"
 type = "file"
 url = "https://raw.githubusercontent.com/catppuccin/lazygit/refs/heads/main/themes-mergable/mocha/sapphire.yml"
 refreshPeriod = "168h"
+
+[".config/zellij/catppuccin.kdl"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/zellij/refs/heads/main/catppuccin.kdl"
+refreshPeriod = "168h"
