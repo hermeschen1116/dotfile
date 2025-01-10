@@ -24,3 +24,8 @@ type = "file"
 url = "https://raw.githubusercontent.com/catppuccin/zsh-fsh/refs/heads/main/themes/catppuccin-mocha.ini"
 refreshPeriod = "168h"
 run_after_external = ["fast-theme XDG:catppuccin-mocha"]
+
+[".config/gh-dash/config.yml"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/gh-dash/refs/heads/main/themes/mocha/catppuccin-mocha-sapphire.yml"
+refreshPeriod = "168h"
