@@ -14,3 +14,7 @@
     url = "https://github.com/catppuccin/btop/blob/main/themes/catppuccin_mocha.theme"
     refreshPeriod = "168h"
 
+[".config/delta/catppuccin.gitconfig"]
+    type = "file"
+    url = "https://github.com/catppuccin/delta/blob/main/catppuccin.gitconfig"
+    refreshPeriod = "168h"
