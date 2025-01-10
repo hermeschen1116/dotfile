@@ -1,0 +1,18 @@
+Include ssh_config.d/*
+
+Host *
+  ForwardAgent no
+  AddKeysToAgent yes
+  Compression no
+  ServerAliveInterval 60
+  ServerAliveCountMax 5
+  HashKnownHosts no
+  UserKnownHostsFile ~/.ssh/known_hosts
+  ControlMaster no
+  ControlPath ~/.ssh/master-%r@%n:%p
+  ControlPersist no
+
+  IgnoreUnknown UseKeychain
+  UseKeychain yes
+  IdentitiesOnly yes
+

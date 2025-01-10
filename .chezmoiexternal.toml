@@ -1,0 +1,51 @@
+[".config/alacritty/catppuccin-mocha.toml"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/alacritty/refs/heads/main/catppuccin-mocha.toml"
+refreshPeriod = "168h"
+
+[".config/bat/themes/Catppuccin Mocha.tmTheme"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/bat/refs/heads/main/themes/Catppuccin%20Mocha.tmTheme"
+refreshPeriod = "168h"
+run_after_external = ["bat cache --build"]
+
+[".config/btop/themes/catppuccin_mocha.theme"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/btop/refs/heads/main/themes/catppuccin_mocha.theme"
+refreshPeriod = "168h"
+
+[".config/delta/catppuccin.gitconfig"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/delta/refs/heads/main/catppuccin.gitconfig"
+refreshPeriod = "168h"
+
+[".config/fsh/catppuccin-mocha.ini"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/zsh-fsh/refs/heads/main/themes/catppuccin-mocha.ini"
+refreshPeriod = "168h"
+run_after_external = ["fast-theme XDG:catppuccin-mocha"]
+
+[".config/gh-dash/config.yml"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/gh-dash/refs/heads/main/themes/mocha/catppuccin-mocha-sapphire.yml"
+refreshPeriod = "168h"
+
+[".config/git/ignore"]
+type = "file"
+url = "https://www.toptal.com/developers/gitignore/api/macos,linux,jetbrains+all,vim"
+refreshPeriod = "168h"
+
+[".config/glow/theme/catppuccin-mocha.json"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/glamour/refs/heads/main/themes/catppuccin-mocha.json"
+refreshPeriod = "168h"
+
+[".config/lazygit/config.yml"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/lazygit/refs/heads/main/themes-mergable/mocha/sapphire.yml"
+refreshPeriod = "168h"
+
+[".config/zellij/catppuccin.kdl"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/zellij/refs/heads/main/catppuccin.kdl"
+refreshPeriod = "168h"
