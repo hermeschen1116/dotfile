@@ -8,3 +8,9 @@
     url = "https://github.com/catppuccin/bat/blob/main/themes/Catppuccin%20Mocha.tmTheme"
     refreshPeriod = "168h"
     run_after_external = "bat cache --build"
+
+[".config/btop/themes/catppuccin_mocha.theme"]
+    type = "file"
+    url = "https://github.com/catppuccin/btop/blob/main/themes/catppuccin_mocha.theme"
+    refreshPeriod = "168h"
+
