@@ -29,3 +29,8 @@ run_after_external = ["fast-theme XDG:catppuccin-mocha"]
 type = "file"
 url = "https://raw.githubusercontent.com/catppuccin/gh-dash/refs/heads/main/themes/mocha/catppuccin-mocha-sapphire.yml"
 refreshPeriod = "168h"
+
+[".config/git/ignore"]
+type = "file"
+url = "https://www.toptal.com/developers/gitignore/api/macos,linux,jetbrains+all,vim"
+refreshPeriod = "168h"
