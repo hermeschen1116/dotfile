@@ -29,3 +29,6 @@ source "$XDG_CONFIG_HOME/broot/launcher/bash/br"
 
 # uv
 eval "$(uvx --generate-shell-completion zsh)"
+
+# chezmoi
+#eval "$(chezmoi completion zsh)"

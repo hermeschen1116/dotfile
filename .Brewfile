@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "italomandara/cxpatcher"
+tap "prbinu/touch2sudo"
 # Download with resuming and segmented downloading
 brew "aria2"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -35,8 +36,6 @@ brew "eza"
 brew "fastfetch", args: ["HEAD"]
 # Simple, fast and user-friendly alternative to find
 brew "fd", args: ["HEAD"]
-# Command-line outline and bitmap font editor/converter
-brew "fontforge"
 # Command-line fuzzy finder written in Go
 brew "fzf", args: ["HEAD"]
 # GitHub command-line tool
@@ -119,6 +118,8 @@ brew "zellij", args: ["HEAD"]
 brew "zoxide"
 # Next-generation plugin manager for zsh
 brew "zplug", args: ["HEAD"]
+# A standalone program for two-factor authentication using Mac Touch ID
+brew "prbinu/touch2sudo/touch2sudo"
 # Automatic tiling window manager similar to xmonad
 cask "amethyst"
 # Android SDK component
