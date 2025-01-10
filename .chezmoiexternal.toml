@@ -7,7 +7,7 @@ refreshPeriod = "168h"
 type = "file"
 url = "https://raw.githubusercontent.com/catppuccin/bat/refs/heads/main/themes/Catppuccin%20Mocha.tmTheme"
 refreshPeriod = "168h"
-run_after_external = "bat cache --build"
+run_after_external = ["bat cache --build"]
 
 [".config/btop/themes/catppuccin_mocha.theme"]
 type = "file"
@@ -18,3 +18,9 @@ refreshPeriod = "168h"
 type = "file"
 url = "https://raw.githubusercontent.com/catppuccin/delta/refs/heads/main/catppuccin.gitconfig"
 refreshPeriod = "168h"
+
+[".config/fsh/catppuccin-mocha.ini"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/zsh-fsh/refs/heads/main/themes/catppuccin-mocha.ini"
+refreshPeriod = "168h"
+run_after_external = ["fast-theme XDG:catppuccin-mocha"]
