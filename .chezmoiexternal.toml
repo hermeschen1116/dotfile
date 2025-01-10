@@ -1,20 +1,20 @@
 [".config/alacritty/catppuccin-mocha.toml"]
-    type = "file"
-    url = "https://github.com/catppuccin/alacritty/blob/main/catppuccin-mocha.toml"
-    refreshPeriod = "168h"
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/alacritty/refs/heads/main/catppuccin-mocha.toml"
+refreshPeriod = "168h"
 
 [".config/bat/themes/Catppuccin Mocha.tmTheme"]
-    type = "file"
-    url = "https://github.com/catppuccin/bat/blob/main/themes/Catppuccin%20Mocha.tmTheme"
-    refreshPeriod = "168h"
-    run_after_external = "bat cache --build"
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/bat/refs/heads/main/themes/Catppuccin%20Mocha.tmTheme"
+refreshPeriod = "168h"
+run_after_external = "bat cache --build"
 
 [".config/btop/themes/catppuccin_mocha.theme"]
-    type = "file"
-    url = "https://github.com/catppuccin/btop/blob/main/themes/catppuccin_mocha.theme"
-    refreshPeriod = "168h"
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/btop/refs/heads/main/themes/catppuccin_mocha.theme"
+refreshPeriod = "168h"
 
 [".config/delta/catppuccin.gitconfig"]
-    type = "file"
-    url = "https://raw.githubusercontent.com/catppuccin/delta/refs/heads/main/catppuccin.gitconfig"
-    refreshPeriod = "168h"
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/delta/refs/heads/main/catppuccin.gitconfig"
+refreshPeriod = "168h"
