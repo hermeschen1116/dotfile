@@ -39,3 +39,8 @@ refreshPeriod = "168h"
 type = "file"
 url = "https://raw.githubusercontent.com/catppuccin/glamour/refs/heads/main/themes/catppuccin-mocha.json"
 refreshPeriod = "168h"
+
+[".config/lazygit/config.yml"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/lazygit/refs/heads/main/themes-mergable/mocha/sapphire.yml"
+refreshPeriod = "168h"
