@@ -34,3 +34,8 @@ refreshPeriod = "168h"
 type = "file"
 url = "https://www.toptal.com/developers/gitignore/api/macos,linux,jetbrains+all,vim"
 refreshPeriod = "168h"
+
+[".config/glow/theme/catppuccin-mocha.json"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/glamour/refs/heads/main/themes/catppuccin-mocha.json"
+refreshPeriod = "168h"
