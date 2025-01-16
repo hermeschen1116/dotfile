@@ -4,6 +4,7 @@ font-size = 16
 font-thicken = true
 grapheme-width-method = unicode
 theme = dark:catppuccin-mocha,light:catppuccin-latte
+background = 1e1e2e
 cursor-style-blink = true
 cursor-click-to-move = true
 mouse-hide-while-typing = true
