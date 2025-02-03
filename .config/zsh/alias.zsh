@@ -1,7 +1,7 @@
 alias -- cd=z
 alias -- config='$(which git) --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias -- eza='eza --git --icons -1 -l -F '\''--color=always'\'' '\''--time-style=iso'\'''
-alias -- fd='fd --hidden'
+alias -- fd='fdfind --hidden'
 alias -- grep=rg
 alias -- la='eza -a'
 alias -- ll='eza -l'

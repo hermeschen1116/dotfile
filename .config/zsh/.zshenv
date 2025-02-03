@@ -17,6 +17,7 @@ export LC_CTYPE="UTF-8"
 export GPG_TTY="$TTY"
 
 export CARGO_HOME="$XDG_CONFIG_HOME/cargo"
+export CHROMIUM_FLAGS="$XDG_CONFIG_HOME/chromium-flags.conf"
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
 export FZF_BASE="$(which fzf)"
