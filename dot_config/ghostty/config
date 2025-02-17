@@ -2,6 +2,7 @@ font-family = "Lilex Nerd Font Mono"
 font-style = Regular
 font-size = 16
 font-thicken = true
+alpha-blending = native
 grapheme-width-method = unicode
 theme = dark:catppuccin-mocha,light:catppuccin-latte
 cursor-style-blink = true
