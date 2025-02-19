@@ -32,7 +32,7 @@
 	},
 	"base_keymap": "JetBrains",
 	"features": {
-		"inline_completion_provider": "none",
+		"edit_prediction_provider": "zed",
 		"copilot": false
 	},
 	"buffer_font_family": "Lilex Nerd Font Mono",
