@@ -48,6 +48,5 @@ macos-icon-frame = plastic
 macos-icon-ghost-color = #7DB6FF
 desktop-notifications = true
 bold-is-bright = true
-term = xterm-256color
 auto-update = download
 auto-update-channel = tip
